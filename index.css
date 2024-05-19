@@ -1,0 +1,23 @@
+p {
+    background-color: aquamarine;
+    padding: 30px 50px 50px 30px;
+    border-style:s solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    display: block;
+    background-color: plum ;
+    padding: 30px 30px 30px 30px
+    font-family: "Monospace";
+    margin: 50px 50px 50px 50px;
+}
+
+
+#id2{
+    background-color: lightpink;
+    text-align: center;
+}
+    
+    
+#id1{background-color: lightpink;}
+h1 {text-align: center;}
+body {background-color: hotpink; text-align: center;} 
