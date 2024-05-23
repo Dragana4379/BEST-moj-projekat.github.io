@@ -1,14 +1,13 @@
 p {
     background-color: aquamarine;
-    padding: 30px 50px 50px 30px;
-    border-style:s solid;
+    padding: 30px;
+    border-style: solid;
     border-radius: 5px;
     border-color: whitesmoke;
     display: block;
     background-color: plum ;
-    padding: 30px 30px 30px 30px
     font-family: "Monospace";
-    margin: 50px 50px 50px 50px;
+    margin: 50px;
 }
 
 
