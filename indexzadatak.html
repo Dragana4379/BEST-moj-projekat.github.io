@@ -61,7 +61,7 @@
 
     
     .d {
-        background-color: lightslategrey;
+        background-color: #B4CFEC;
         position: absolute;
         top: 378px;
     
@@ -88,6 +88,31 @@
     }
     table {
         padding: 10px;
+        font-family: mojfont;
+    }
+    @font-face {
+            font-family: mojFont;
+            src: url(./Poetsen_One/PoetsenOne-Regular.ttf);
+        }
+        
+        @font-face {
+            font-family: drugifont;
+            src: url(./naslov.ttf);
+        }
+        @font-face {
+            font-family: trecifont;
+            src: url(./Ubuntu/Ubuntu-BoldItalic.ttf);
+        }
+    #muzika {
+        text-align: center;
+        font-family: mojFont ;
+        font-size: xx-large;
+    }
+    #muzikaparagraf {
+        text-align: inherit;
+        font-family: trecifont;
+        margin-left: 10px;
+        margin-right: 15px;
     }
 </style>
 <body>
@@ -101,7 +126,6 @@
             <tr>
                 <td>
 
-                     levi blok
                     After many childless years,         
                     King Stefan and Queen Leah
                     welcome the birth of their daughter,                                               
@@ -171,9 +195,9 @@
         </p>
     </div>
     <div class="d">
-        <p>desni blok</p>
-        <h1>Muzika</h1>
-        <p id="muzika">
+
+        <h1 id="muzika">Muzika</h1>
+        <p id="muzikaparagraf">
 
 In April 1952, Billboard reported that Jack Lawrence and Sammy Fain
  had signed to compose the score.In the following year, Disney decided

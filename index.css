@@ -16,7 +16,16 @@ p {
     text-align: center;
 }
     
-    
+ #best {
+    width: 80%;
+    height: 60px;
+    margin-left: 130px;
+    background-color: lightpink;
+    text-align: center;
+    position: center;
+    border-style: solid;
+    border-color: white;
+ }   
 #id1{background-color: lightpink;}
 h1 {text-align: center;}
-body {background-color: hotpink; text-align: center;} 
+body {background-image: url(./drvo.jpg);} 
